@@ -1,0 +1,54 @@
+/* src/components/BooksManager.css */
+
+/* ... (previous styles remain the same) */
+
+.books-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .books-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .books-table th, .books-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 1000px;
+    text-align: left;
+  }
+  
+  .books-table th {
+    background-color: #f9f9f9;
+    width: 1000px;
+  }
+  
+  .books-table td {
+    vertical-align: middle;
+    width: 1000px;
+  }
+  
+  .books-table th, .books-table td:nth-child(4) {
+    text-align: center;
+  }
+  
+  .books-table button {
+    margin: 0;
+  }
+  
+  .save-button, .cancel-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .save-button:hover, .cancel-button:hover, .edit-button:hover, .delete-button:hover {
+    background-color: #218838;
+  }
+  
